@@ -1,0 +1,31 @@
+Dummy data for GlobalContacts 
+[
+    { number: '1234567890', names: ['John Doe', 'Johnny'], email: 'john@example.com' },
+    { number: '2345678901', names: ['Jane Smith', 'Janie'], email: 'jane@example.com' },
+    { number: '3456789012', names: ['Alice Johnson', 'Ali'], email: 'alice@example.com' },
+    { number: '4567890123', names: ['Bob Brown', 'Bobby'], email: 'bob@example.com' },
+    { number: '5678901234', names: ['Carol Williams', 'Carrie'], email: 'carol@example.com' },
+    // Example of overlapping numbers with Spam data
+    { number: '6789012345', names: ['David Miller', 'Dave'], email: 'david@example.com' },
+    { number: '7890123456', names: ['Emma Wilson', 'Em'], email: 'emma@example.com' }
+]
+
+Dummy data for Spam
+[
+    { 
+        number: '6789012345', 
+        spamEntry: [
+            { userId: 'userId1', time: '2024-05-08T00:00:00Z' },
+            { userId: 'userId2', time: '2024-04-20T00:00:00Z' },
+            { userId: 'userId3', time: '2024-04-15T00:00:00Z' }
+        ]
+    },
+    { 
+        number: '7890123456', 
+        spamEntry: [
+            { userId: 'userId4', time: '2024-06-08T00:00:00Z' },
+            { userId: 'userId5', time: '2024-06-01T00:00:00Z' },
+            { userId: 'userId6', time: '2024-05-25T00:00:00Z' }
+        ]
+    }
+]

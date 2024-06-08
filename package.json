@@ -1,0 +1,21 @@
+{
+  "name": "gigaintel-truecaller",
+  "version": "1.0.0",
+  "description": "a REST API to be consumed by a mobile app, similar to popular apps that identify spam numbersor allow users to find a person’s name by searching for their phone number.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shrikant Kshatriya",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.4.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
